@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-head{
+    width: 100%;
+    height: 100px;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.logo img{
+    width: 60px;
+    height: 5.5vh;
+    vertical-align: middle;
+    margin-right: -10px;
+    margin-bottom: 10px;
+}
+
+.logo::after{
+    content: "Brand Code";
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+
+.enlaces a{
+    margin: 15px;
+    color:  rgb(88, 166, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.enlaces a:hover{
+    color: aliceblue;
+}
+.enlaces a button{
+    width: 80px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(158, 86, 224);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+}
+
+.enlaces button:hover{
+    color:rgb(88, 166, 255);
+    font-weight: bold;
+}
+/* Este .back contiene a todos los elementos html, para
+agregarle un fondo a todos los elementos*/
+.back{
+    background: url(https://images8.alphacoders.com/595/thumb-1920-595000.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+main{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.image{
+    width: 65%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22px;
+
+}
+
+.image img{
+    width: 620px;
+    height: 370px;
+    border: none;
+    border-collapse: collapse;
+    background: transparent;
+    border-radius: 20px;
+}
+.text{
+    width: 35%;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.text h1{
+    text-align: right;
+    font-size: 6em;
+    margin-right: 80px;
+    -webkit-text-stroke: 2px rgb(223, 41, 192);
+    color: transparent; 
+    margin-bottom: 80px;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    margin-left: 120px;
+    margin-top: -300px;
+    margin-right: 80px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
